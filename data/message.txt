@@ -1,0 +1,3 @@
+Hello from Java!
+This text was written with BufferedWriter.
+Then it was read with BufferedReader.

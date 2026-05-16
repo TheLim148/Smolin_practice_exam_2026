@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("practice-17-strategy");
+        PaymentContext paymentContext = new PaymentContext(new CardPaymentStrategy("**** **** **** 1234"));
+        paymentContext.executePayment(1500);
+
+        paymentContext.setPaymentStrategy(new CashPaymentStrategy());
+        paymentContext.executePayment(800);
     }
 }
