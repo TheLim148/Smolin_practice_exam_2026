@@ -1,11 +1,8 @@
-# practice-06-buffered-reader-writer
+## Практика 06 — BufferedReader / BufferedWriter
 
-## Задание
+Задание: прочитать и записать текстовый файл с использованием `BufferedReader` и `BufferedWriter`.
 
-Описание задания будет добавлено позже.
+В проекте используются:
 
-## Запуск
-
-```bash
-../../scripts/java-run src/Main.java
-```
+- `TextFileService` — класс для записи и чтения текстового файла;
+- `Main` — создаёт файл, записывает текст и читает его обратно.

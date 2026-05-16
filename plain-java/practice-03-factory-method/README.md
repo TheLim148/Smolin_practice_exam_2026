@@ -1,11 +1,12 @@
-# practice-03-factory-method
+## Практика 03 — Factory Method
 
-## Задание
+Задание: применить паттерн Factory Method для создания разных объектов.
 
-Описание задания будет добавлено позже.
+В проекте используются:
 
-## Запуск
-
-```bash
-../../scripts/java-run src/Main.java
-```
+- `Notification` — общий интерфейс уведомления;
+- `EmailNotification` — уведомление по email;
+- `SmsNotification` — уведомление по SMS;
+- `PushNotification` — push-уведомление;
+- `NotificationFactory` — фабрика для создания нужного типа уведомления;
+- `Main` — демонстрация работы фабрики.
