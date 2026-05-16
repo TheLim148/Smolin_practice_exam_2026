@@ -1,17 +1,17 @@
-# practice-20-swagger-ui
+# Practice 20 — Swagger UI
 
-## Задание
+Запуск:
 
-Описание задания будет добавлено позже.
+    mvn spring-boot:run
 
-## Запуск
+Проверка REST API:
 
-```bash
-mvn spring-boot:run
-```
+    curl http://localhost:8080/books
 
-## Тесты
+Swagger UI:
 
-```bash
-mvn test
-```
+    http://localhost:8080/swagger-ui/index.html
+
+OpenAPI JSON:
+
+    http://localhost:8080/v3/api-docs

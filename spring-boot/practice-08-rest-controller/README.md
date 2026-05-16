@@ -1,17 +1,9 @@
-# practice-08-rest-controller
+# Practice 08 — REST controller
 
-## Задание
+Запуск:
 
-Описание задания будет добавлено позже.
+    mvn spring-boot:run
 
-## Запуск
+Проверка:
 
-```bash
-mvn spring-boot:run
-```
-
-## Тесты
-
-```bash
-mvn test
-```
+    curl http://localhost:8080/products

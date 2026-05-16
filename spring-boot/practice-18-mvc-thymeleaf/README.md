@@ -1,17 +1,9 @@
-# practice-18-mvc-thymeleaf
+# Practice 18 — MVC + Thymeleaf
 
-## Задание
+Запуск:
 
-Описание задания будет добавлено позже.
+    mvn spring-boot:run
 
-## Запуск
+Проверка в браузере:
 
-```bash
-mvn spring-boot:run
-```
-
-## Тесты
-
-```bash
-mvn test
-```
+    http://localhost:8080/

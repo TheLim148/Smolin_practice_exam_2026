@@ -1,17 +1,13 @@
-# practice-13-spring-security
+# Practice 13 — Spring Security
 
-## Задание
+Запуск:
 
-Описание задания будет добавлено позже.
+    mvn spring-boot:run
 
-## Запуск
+Публичный endpoint:
 
-```bash
-mvn spring-boot:run
-```
+    curl http://localhost:8080/public
 
-## Тесты
+Закрытый endpoint:
 
-```bash
-mvn test
-```
+    curl -u user:password http://localhost:8080/private

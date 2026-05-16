@@ -1,17 +1,11 @@
-# practice-15-scheduled
+# Practice 15 — @Scheduled
 
-## Задание
+Запуск:
 
-Описание задания будет добавлено позже.
+    mvn spring-boot:run
 
-## Запуск
+Проверка:
 
-```bash
-mvn spring-boot:run
-```
+    curl http://localhost:8080/
 
-## Тесты
-
-```bash
-mvn test
-```
+После запуска сообщение будет выводиться в терминал каждые 5 секунд.

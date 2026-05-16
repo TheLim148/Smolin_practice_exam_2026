@@ -1,17 +1,17 @@
-# practice-10-jpa-entity-repository
+# Practice 10 — JPA Entity + Repository
 
-## Задание
+Запуск:
 
-Описание задания будет добавлено позже.
+    mvn spring-boot:run
 
-## Запуск
+Проверка:
 
-```bash
-mvn spring-boot:run
-```
+    curl http://localhost:8080/products
 
-## Тесты
+H2 console:
 
-```bash
-mvn test
-```
+    http://localhost:8080/h2-console
+
+JDBC URL:
+
+    jdbc:h2:mem:practice10

@@ -1,17 +1,11 @@
-# practice-14-async
+# Practice 14 — @Async
 
-## Задание
+Запуск:
 
-Описание задания будет добавлено позже.
+    mvn spring-boot:run
 
-## Запуск
+Проверка:
 
-```bash
-mvn spring-boot:run
-```
+    curl http://localhost:8080/async
 
-## Тесты
-
-```bash
-mvn test
-```
+Ответ вернётся сразу, а сообщение появится в терминале через 2 секунды.
